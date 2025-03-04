@@ -7,4 +7,40 @@
     width: 100vw;
     height: 70vh;
     background-color: black;
+
+
+.f-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20rem;
+    padding-top: 2vh;
+}
+
+.f-navbar > a {
+    text-decoration: none;
+    color: #6d48e5;
+    font-weight: 550;
+}
+
+.f-navbar > nav {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.f-navbar > nav > a {
+    text-decoration: none;
+    color: #364655;
+    font-size: 15px;
+}
+
+.f-navbar > nav > button {
+    background-color: #6d48e5;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    width: 4.5rem;
+    height: 1.9rem;
+    font-size: 14px;
 }
