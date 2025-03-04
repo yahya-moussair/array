@@ -6,12 +6,14 @@
 
 /* section 1 */
 
+/* navbar */
 .f-navbar {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 20rem;
+    gap: 22rem;
     padding-top: 2vh;
+    padding-bottom: 6vh;
 }
 
 .f-navbar>a {
@@ -42,10 +44,64 @@
     font-size: 14px;
 }
 
+/* register section */
+.f-register-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding-block: 4vh;
+}
+
+.f-register-section > img {
+    padding-bottom: 2vh;
+}
+
+.f-register-middle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.f-register-h1 {
+    color: #364655;
+    font-weight: 550;
+    font-size: 26px;
+    letter-spacing: 0.7px;
+}
+
+.f-register-p {
+    color: #364655d3;
+    letter-spacing: 0.4px;
+}
+
+.f-register-section > button {
+    background-color: #6d48e5;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    width: 8rem;
+    height: 2rem;
+    font-size: 15px;
+}
+
+/* partners section */
+
+.f-partners-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    padding-top: 4vh;
+}
+
 /* section 2 */
 
 .a-first-section {
-    width: 100vw;
-    height: 70vh;
+    width: 100%;
+    height: 90vh;
     background-color: black;
 }
