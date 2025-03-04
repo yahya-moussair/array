@@ -3,3 +3,8 @@
     padding: 0;
     font-family: "Ubuntu", sans-serif;
 }
+.a-first-section{
+    width: 100vw;
+    height: 70vh;
+    background-color: black;
+}
