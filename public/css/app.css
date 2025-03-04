@@ -98,10 +98,49 @@
     padding-top: 4vh;
 }
 
+/* section 1 responsive desktop edit */
+
+#menu,
+label {
+    display: none;
+}
+
+.close {
+    display: none;
+}
+
 /* section 2 */
 
 .a-first-section {
     width: 100%;
     height: 90vh;
     background-color: black;
+}
+
+/* Responsive */
+
+
+@media (max-width: 440px) {
+
+    /* Youssef first section */
+    .f-section1 {
+        background: #1e1e1e;
+        padding: 3.5vh 2vw;
+        position: fixed;
+        width: 100%;
+    }
+
+    .f-navbar {
+        display: none;
+    }
+
+    .f-register-section {
+        display: none;
+    }
+
+    .f-partners-section {
+        display: none;
+    }
+
+
 }
