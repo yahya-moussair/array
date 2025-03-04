@@ -3,11 +3,8 @@
     padding: 0;
     font-family: "Ubuntu", sans-serif;
 }
-.a-first-section{
-    width: 100vw;
-    height: 70vh;
-    background-color: black;
-}
+
+/* section 1 */
 
 .f-navbar {
     display: flex;
@@ -17,25 +14,25 @@
     padding-top: 2vh;
 }
 
-.f-navbar > a {
+.f-navbar>a {
     text-decoration: none;
     color: #6d48e5;
     font-weight: 550;
 }
 
-.f-navbar > nav {
+.f-navbar>nav {
     display: flex;
     align-items: center;
     gap: 2rem;
 }
 
-.f-navbar > nav > a {
+.f-navbar>nav>a {
     text-decoration: none;
     color: #364655;
     font-size: 15px;
 }
 
-.f-navbar > nav > button {
+.f-navbar>nav>button {
     background-color: #6d48e5;
     color: white;
     border: none;
@@ -43,4 +40,12 @@
     width: 4.5rem;
     height: 1.9rem;
     font-size: 14px;
+}
+
+/* section 2 */
+
+.a-first-section {
+    width: 100vw;
+    height: 70vh;
+    background-color: black;
 }
