@@ -4,7 +4,11 @@
     font-family: "Ubuntu", sans-serif;
 }
 
-/* section 1 */
+/* section 1 from youssef */
+
+.f-section1 {
+    padding-bottom: 2rem;
+}
 
 /* navbar */
 .f-navbar {
@@ -75,7 +79,7 @@
 }
 
 .f-register-p {
-    color: #364655d3;
+    color: #36465586;
     letter-spacing: 0.4px;
     text-align: center;
 }
@@ -103,7 +107,7 @@
 
 /* ---------------- */
 
-/* section 1 from yahya */
+/* section 2 from yahya */
 .a-first-section {
     width: 100%;
     height: 90vh;
@@ -175,12 +179,73 @@
     padding-inline: 2vw;
 }
 
+/* ----------------- */
 
+/* section 3 from youssef */
 
+.f-section3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5rem;
+    padding-block: 5rem;
+}
 
+/* main text */
+.f-main-text {
+    text-align: center;
+}
 
+.f-main-text>h1{
+    color: #364655;
+}
 
+.f-main-text>p {
+    color: #36465586;
+    width: 35rem;
+    letter-spacing: 0.5px;
+}
 
+/* main content */
+.f-main-content{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.f-top-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6rem;
+}
+
+.f-text>h2{
+    color: #364655;
+}
+
+.f-text>p {
+    width: 14rem;
+    color: #36465586;
+}
+
+.f-bottom-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6rem;
+}
+
+.f-know-more {
+    font-weight: 700;
+}
+
+.f-know-more>span {
+    border-bottom: 2px #36465586 solid;
+}
+
+/* -------------------- */
 
 /* section 4 from yahya */
 .a-second-section{
@@ -236,7 +301,60 @@
     text-decoration: none;
     padding-bottom: 0.1vh;
     border-bottom: white 1px solid;
+}
 
+/* ------------------ */
+
+/* section 5 from youssef */
+
+.f-section5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-block: 5rem;
+    gap: 4rem;
+}
+
+.f-features {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.f-top-title>img {
+    width: 1.8rem;
+    height: 1.8rem;
+}
+
+.f-top-title {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.f-top-title>h3 {
+    color: #364655;
+    font-size: 25px;
+}
+
+.f-first-feature>p {
+    width: 25rem;
+    padding-left: 3.45rem;
+    color: #36465586;
+    letter-spacing: 0.5px;
+}
+
+.f-second-feature>p {
+    width: 25rem;
+    padding-left: 3.45rem;
+    color: #36465586;
+    letter-spacing: 0.5px;
+}
+
+.f-third-feature>p {
+    width: 25rem;
+    padding-left: 3.45rem;
+    color: #36465586;
+    letter-spacing: 0.5px;
 }
 
 /* third  section by yahya*/
@@ -342,7 +460,7 @@ label {
 
 @media (max-width: 480px) {
 
-    /* Youssef first section */
+    /* Section 1 from youssef - Responsive */
     .f-section1 {
         padding: 0 0;
         width: 100%;
@@ -420,7 +538,7 @@ label {
         flex-direction: column;
     }
 
-    /* section 2 from yahya , responsive  */
+    /* section 2 from yahya - responsive  */
     .a-first-section {
         height: max-content;
     }
@@ -442,11 +560,36 @@ label {
         width: 60vw;
     }
 
+     /* section 3 from youssef - responsive */
+    
+     .f-top-content {
+        flex-direction: column;
+    }
 
-    /* section 4 responsive by yahya */
+    .f-bottom-content {
+        flex-direction: column-reverse;
+    }
+
+    .f-main-text>p {
+        width: 22rem;
+    }
+
+    /* section 4 from yahya - responsive */
 
     .a-second-section>.a-middle-content>div{
         flex-direction: column;
+    }
+
+    /* section 5 from youssef - responsive */
+
+    .f-section5 {
+        flex-direction: column;
+    }
+
+    .f-features {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
     }
     
     /* section 6 responsive by yahya */
@@ -463,4 +606,51 @@ label {
     .a-third-section>.footer>div{
         gap: 3vw;
     }
+    .f-top-title>img {
+        width: 1.8rem;
+        height: 1.8rem;
+    }
+    
+    .f-top-title {
+        gap: 1rem;
+    }
+    
+    .f-top-title>h3 {
+        color: #364655;
+        font-size: 25px;
+    }
+    
+    .f-first-feature {
+        padding-left: 1rem;
+    }
+
+    .f-first-feature>p {
+        width: 22rem;
+        padding-left: 3rem;
+    }
+    
+    
+    .f-second-feature {
+        padding-left: 1rem;
+    }
+
+    .f-second-feature>p {
+        width: 22rem;
+        padding-left: 3rem;
+    }
+
+    .f-third-feature {
+        padding-left: 1rem;
+    }
+
+    .f-third-feature>p {
+        width: 22rem;
+        padding-left: 3rem;
+    }
+
+    .f-section5>img {
+        width: 18rem;
+        height: 11rem;
+    }
+
 }
