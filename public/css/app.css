@@ -4,7 +4,7 @@
     font-family: "Ubuntu", sans-serif;
 }
 
-/* section 1 */
+/* section 1 from youssef */
 
 /* navbar */
 .f-navbar {
@@ -75,7 +75,7 @@
 }
 
 .f-register-p {
-    color: #364655d3;
+    color: #36465586;
     letter-spacing: 0.4px;
     text-align: center;
 }
@@ -237,6 +237,69 @@
     padding-bottom: 0.1vh;
     border-bottom: white 1px solid;
 
+/* ------------------ */
+
+/* section 2 from youssef */
+
+.f-section2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+/* main text */
+.f-main-text {
+    text-align: center;
+}
+
+.f-main-text>h1{
+    color: #364655;
+}
+
+.f-main-text>p {
+    color: #36465586;
+    width: 35rem;
+    letter-spacing: 0.5px;
+}
+
+/* main content */
+.f-main-content{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.f-top-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6rem;
+}
+
+.f-text>h2{
+    color: #364655;
+}
+
+.f-text>p {
+    width: 14rem;
+    color: #36465586;
+}
+
+.f-bottom-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6rem;
+}
+
+.f-know-more {
+    font-weight: 700;
+}
+
+.f-know-more>span {
+    border-bottom: 2px #36465586 solid;
 }
 
 /* section 1 responsive desktop edit */
@@ -365,4 +428,18 @@ label {
     }
     
 
+    /* youssef second section */
+    
+    .f-top-content {
+        flex-direction: column;
+    }
+
+    
+    .f-bottom-content {
+        flex-direction: column-reverse;
+    }
+
+    .f-main-text>p {
+        width: 22rem;
+    }
 }
