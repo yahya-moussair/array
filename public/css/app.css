@@ -172,6 +172,70 @@
     padding-inline: 2vw;
 }
 
+
+
+
+
+
+
+
+/* section 4 from yahya */
+.a-second-section{
+    background-color: rgb(113, 71, 227);
+    height: max-content;
+    width: 100%;
+    padding: 8vh 0;
+    display: flex;
+    flex-direction: column;
+    gap: 7vh;
+    align-items: center;
+}
+.a-second-section>.a-header-title{
+    display: flex;
+    flex-direction: column;
+}
+.a-second-section>.a-header-title{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vh;
+    color: white;
+    text-align: center;
+}
+.a-second-section>.a-header-title>h3{
+    font-weight: bolder;
+}
+.a-second-section>.a-middle-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4vh;
+}
+.a-second-section>.a-middle-content>div{
+    display: flex;
+    gap: 10vw;
+    color: white;
+}
+.a-second-section>.a-middle-content>div>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vh;
+}
+.a-second-section>.a-middle-content>div>div>h1{
+    font-weight: bolder;
+    font-size: 5em;
+}
+.a-second-section>.a-middle-content>div>div>p{
+    font-weight: 500;
+}
+.a-second-section>.a-middle-content>p>a{
+    color: white;
+    text-decoration: none;
+    padding-bottom: 0.1vh;
+    border-bottom: white 1px solid;
+
+}
+
 /* section 1 responsive desktop edit */
 
 #menu,
@@ -241,6 +305,13 @@ label {
     .a-middle-content>.a-first-3-rewards>div>p{
         padding-inline: 0vw !important;
         width: 60vw;
+    }
+
+
+    /* section 4 responsive by yahya */
+
+    .a-second-section>.a-middle-content>div{
+        flex-direction: column;
     }
     
 
