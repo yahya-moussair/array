@@ -109,6 +109,7 @@
     display: flex;
     flex-direction: column;
     gap: 5vh;
+    padding: 5vh 0;
 }
 
 .a-first-section>.a-header-title {
@@ -157,8 +158,8 @@
 .a-first-section>.a-middle-content>.a-first-3-rewards>div>span>i {
     font-size: 2.2em;
     background-color: rgb(237, 231, 254);
-    padding: 3vh 1.7vw;
-    border-radius: 35px;
+    padding: 25px;
+    border-radius: 50%;
 }
 
 .a-first-section>.a-middle-content>.a-first-3-rewards>div>h4 {
@@ -193,7 +194,7 @@ label {
 /* Responsive */
 
 
-@media (max-width: 440px) {
+@media (max-width: 480px) {
 
     /* Youssef first section */
     .f-section1 {
@@ -220,5 +221,27 @@ label {
         display: block;
     }
 
+    /* section 2 from yahya , responsive  */
+    .a-first-section {
+        height: max-content;
+    }
+    
+    .a-header-title>p{
+        padding-inline: 10vw !important;
+        font-size: 0.8em !important;
+    }
+    .a-middle-content>.a-first-3-rewards{
+        flex-direction: column;
+        align-items: center;
+        gap: 5vh;
+    }
+    .a-middle-content>.a-first-3-rewards>div{
+        align-items: center;
+    }
+    .a-middle-content>.a-first-3-rewards>div>p{
+        padding-inline: 0vw !important;
+        width: 60vw;
+    }
+    
 
 }
