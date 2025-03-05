@@ -54,7 +54,7 @@
     padding-block: 4vh;
 }
 
-.f-register-section > img {
+.f-register-section>img {
     padding-bottom: 2vh;
 }
 
@@ -78,7 +78,7 @@
     letter-spacing: 0.4px;
 }
 
-.f-register-section > button {
+.f-register-section>button {
     background-color: #6d48e5;
     color: white;
     border: none;
@@ -96,6 +96,79 @@
     justify-content: center;
     gap: 3rem;
     padding-top: 4vh;
+}
+
+
+
+/* section 1 from yahya */
+.a-first-section {
+    width: 100%;
+    height: 90vh;
+    background-color: rgb(246, 246, 253);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+}
+
+.a-first-section>.a-header-title {
+    padding-top: 8vh;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    text-transform: capitalize;
+}
+
+.a-first-section>.a-header-title>h3 {
+    font-weight: bolder;
+}
+
+.a-first-section>.a-header-title>p {
+    font-size: 1em;
+    padding-inline: 32vw;
+    opacity: 0.6;
+}
+
+.a-first-section>.a-middle-content {
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    justify-content: center;
+    width: 80%;
+    height: 60%;
+    margin: 0 auto;
+}
+
+.a-first-section>.a-middle-content>.a-first-3-rewards {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.a-first-section>.a-middle-content>.a-first-3-rewards>div {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2.2vh;
+}
+
+.a-first-section>.a-middle-content>.a-first-3-rewards>div>span>i {
+    font-size: 2.2em;
+    background-color: rgb(237, 231, 254);
+    padding: 3vh 1.7vw;
+    border-radius: 35px;
+}
+
+.a-first-section>.a-middle-content>.a-first-3-rewards>div>h4 {
+    font-weight: 600;
+}
+
+.a-first-section>.a-middle-content>.a-first-3-rewards>div>p {
+    font-size: 0.8em;
+    opacity: 0.6;
+    padding-inline: 2vw;
 }
 
 /* section 1 responsive desktop edit */
@@ -142,7 +215,8 @@ label {
         display: none;
     }
 
-    .label, .close {
+    .label,
+    .close {
         display: block;
     }
 
