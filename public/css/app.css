@@ -71,11 +71,13 @@
     font-weight: 550;
     font-size: 26px;
     letter-spacing: 0.7px;
+    text-align: center;
 }
 
 .f-register-p {
     color: #364655d3;
     letter-spacing: 0.4px;
+    text-align: center;
 }
 
 .f-register-section>button {
@@ -96,9 +98,10 @@
     justify-content: center;
     gap: 3rem;
     padding-top: 4vh;
+    padding-bottom: 5vh;
 }
 
-
+/* ---------------- */
 
 /* section 1 from yahya */
 .a-first-section {
@@ -179,46 +182,93 @@ label {
     display: none;
 }
 
-.close {
+.close,
+.open {
     display: none;
 }
 
-/* section 2 */
-
-/* .a-first-section {
-    width: 100%;
-    height: 90vh;
-    background-color: black;
-} */
+/* ----------------- */
 
 /* Responsive */
-
 
 @media (max-width: 480px) {
 
     /* Youssef first section */
     .f-section1 {
-        background: #1e1e1e;
-        padding: 3.5vh 2vw;
-        position: fixed;
+        padding: 0 0;
         width: 100%;
     }
 
     .f-navbar {
-        display: none;
-    }
-
-    .f-register-section {
-        display: none;
-    }
-
-    .f-partners-section {
-        display: none;
+        gap: 18.5rem;
     }
 
     .label,
     .close {
         display: block;
+    }
+
+    .f-navbar>nav>label {
+        display: block;
+    }
+
+    .open {
+        display: block;
+    }
+
+    .f-navbar>nav>a {
+        color: #ffffff;
+        font-size: 18px;
+    }
+
+    .f-navbar>nav>button {
+        width: 5.5rem;
+        height: 2.2rem;
+        font-size: 18px;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    #menu:checked~nav {
+        right: 0;
+    }
+
+    nav {
+        background-color: #353535;
+        position: fixed;
+        width: 85%;
+        height: 100vh;
+        right: -200%;
+        top: 0;
+        transition: 0.5s;
+        flex-direction: column;
+        align-items: start;
+        gap: 5vh !important;
+        padding: 5vw !important;
+    }
+
+    #menu:checked~.close {
+        display: block;
+    }
+
+    .close {
+        align-self: end;
+    }
+
+    .f-navbar>a {
+        font-weight: 600;
+        font-size: 17px;
+    }
+
+    .f-register-section>img{
+        width: 20rem;
+        height: 10rem;
+    }
+
+    .f-partners-section {
+        flex-direction: column;
     }
 
     /* section 2 from yahya , responsive  */
@@ -242,6 +292,5 @@ label {
         padding-inline: 0vw !important;
         width: 60vw;
     }
-    
 
 }
