@@ -110,7 +110,6 @@
 /* section 2 from yahya */
 .a-first-section {
     width: 100%;
-    height: 90vh;
     background-color: rgb(246, 246, 253);
     text-align: center;
     display: flex;
@@ -442,6 +441,14 @@
 .a-third-section>.footer>div>a{
     font-size: 1em;
 }
+.footer>p {
+    color: #36465586;
+    padding-left: 7.5rem;
+}
+
+.a-header-title>p{
+    color: #36465586;
+}
 /* section 1 responsive desktop edit */
 
 #menu,
@@ -591,21 +598,7 @@ label {
         flex-direction: column;
         gap: 2rem;
     }
-    
-    /* section 6 responsive by yahya */
-    .a-third-section>.a-header-title>h1{
-        padding-inline: 0;
-    }
-    .a-third-section>.a-info-div>form>input , .a-third-section>.a-info-div>form>button{
-        width: 100%;
-    }
-    .a-third-section>.footer{
-        flex-direction: column;
-        gap: 2vh;
-    }
-    .a-third-section>.footer>div{
-        gap: 3vw;
-    }
+
     .f-top-title>img {
         width: 1.8rem;
         height: 1.8rem;
@@ -651,6 +644,21 @@ label {
     .f-section5>img {
         width: 18rem;
         height: 11rem;
+    }
+    
+    /* section 6 responsive by yahya */
+    .a-third-section>.a-header-title>h1{
+        padding-inline: 0;
+    }
+    .a-third-section>.a-info-div>form>input , .a-third-section>.a-info-div>form>button{
+        width: 100%;
+    }
+    .a-third-section>.footer{
+        flex-direction: column;
+        gap: 2vh;
+    }
+    .a-third-section>.footer>div{
+        gap: 3vw;
     }
 
 }
