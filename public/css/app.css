@@ -183,7 +183,7 @@
 
 /* section 3 from youssef */
 
-.f-section2 {
+.f-section3 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -307,7 +307,55 @@
 
 /* section 5 from youssef */
 
-/* section 6 from yahya */
+.f-section5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-block: 5rem;
+    gap: 4rem;
+}
+
+.f-features {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.f-top-title>img {
+    width: 1.8rem;
+    height: 1.8rem;
+}
+
+.f-top-title {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.f-top-title>h3 {
+    color: #364655;
+    font-size: 25px;
+}
+
+.f-first-feature>p {
+    width: 25rem;
+    padding-left: 3.45rem;
+    color: #36465586;
+    letter-spacing: 0.5px;
+}
+
+.f-second-feature>p {
+    width: 25rem;
+    padding-left: 3.45rem;
+    color: #36465586;
+    letter-spacing: 0.5px;
+}
+
+.f-third-feature>p {
+    width: 25rem;
+    padding-left: 3.45rem;
+    color: #36465586;
+    letter-spacing: 0.5px;
+}
 
 /* section 1 responsive desktop edit */
 
@@ -449,6 +497,61 @@ label {
 
     /* section 5 from youssef - responsive */
 
+    .f-section5 {
+        flex-direction: column;
+    }
 
-    /* section 6 from yahya - responsive */
+    .f-features {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    
+    .f-top-title>img {
+        width: 1.8rem;
+        height: 1.8rem;
+    }
+    
+    .f-top-title {
+        gap: 1rem;
+    }
+    
+    .f-top-title>h3 {
+        color: #364655;
+        font-size: 25px;
+    }
+    
+    .f-first-feature {
+        padding-left: 1rem;
+    }
+
+    .f-first-feature>p {
+        width: 22rem;
+        padding-left: 3rem;
+    }
+    
+    
+    .f-second-feature {
+        padding-left: 1rem;
+    }
+
+    .f-second-feature>p {
+        width: 22rem;
+        padding-left: 3rem;
+    }
+
+    .f-third-feature {
+        padding-left: 1rem;
+    }
+
+    .f-third-feature>p {
+        width: 22rem;
+        padding-left: 3rem;
+    }
+
+    .f-section5>img {
+        width: 18rem;
+        height: 11rem;
+    }
+
 }
