@@ -661,4 +661,8 @@ label {
         gap: 3vw;
     }
 
+    .footer>p {
+        padding-left: 0;
+    }
+
 }
