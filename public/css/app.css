@@ -1,0 +1,668 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Ubuntu", sans-serif;
+}
+
+/* section 1 from youssef */
+
+.f-section1 {
+    padding-bottom: 2rem;
+}
+
+/* navbar */
+.f-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 22rem;
+    padding-top: 2vh;
+    padding-bottom: 6vh;
+}
+
+.f-navbar>a {
+    text-decoration: none;
+    color: #6d48e5;
+    font-weight: 550;
+}
+
+.f-navbar>nav {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.f-navbar>nav>a {
+    text-decoration: none;
+    color: #364655;
+    font-size: 15px;
+}
+
+.f-navbar>nav>button {
+    background-color: #6d48e5;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    width: 4.5rem;
+    height: 1.9rem;
+    font-size: 14px;
+}
+
+/* register section */
+.f-register-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding-block: 4vh;
+}
+
+.f-register-section>img {
+    padding-bottom: 2vh;
+}
+
+.f-register-middle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.f-register-h1 {
+    color: #364655;
+    font-weight: 550;
+    font-size: 26px;
+    letter-spacing: 0.7px;
+    text-align: center;
+}
+
+.f-register-p {
+    color: #36465586;
+    letter-spacing: 0.4px;
+    text-align: center;
+}
+
+.f-register-section>button {
+    background-color: #6d48e5;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    width: 8rem;
+    height: 2rem;
+    font-size: 15px;
+}
+
+/* partners section */
+
+.f-partners-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    padding-top: 4vh;
+    padding-bottom: 5vh;
+}
+
+/* ---------------- */
+
+/* section 2 from yahya */
+.a-first-section {
+    width: 100%;
+    background-color: rgb(246, 246, 253);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    padding: 5vh 0;
+}
+
+.a-first-section>.a-header-title {
+    padding-top: 8vh;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    text-transform: capitalize;
+}
+
+.a-first-section>.a-header-title>h3 {
+    font-weight: bolder;
+}
+
+.a-first-section>.a-header-title>p {
+    font-size: 1em;
+    padding-inline: 32vw;
+    opacity: 0.6;
+}
+
+.a-first-section>.a-middle-content {
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    justify-content: center;
+    width: 80%;
+    height: 60%;
+    margin: 0 auto;
+}
+
+.a-first-section>.a-middle-content>.a-first-3-rewards {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.a-first-section>.a-middle-content>.a-first-3-rewards>div {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2.2vh;
+}
+
+.a-first-section>.a-middle-content>.a-first-3-rewards>div>span>i {
+    font-size: 2.2em;
+    background-color: rgb(237, 231, 254);
+    padding: 25px;
+    border-radius: 50%;
+}
+
+.a-first-section>.a-middle-content>.a-first-3-rewards>div>h4 {
+    font-weight: 600;
+}
+
+.a-first-section>.a-middle-content>.a-first-3-rewards>div>p {
+    font-size: 0.8em;
+    opacity: 0.6;
+    padding-inline: 2vw;
+}
+
+/* ----------------- */
+
+/* section 3 from youssef */
+
+.f-section3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5rem;
+    padding-block: 5rem;
+}
+
+/* main text */
+.f-main-text {
+    text-align: center;
+}
+
+.f-main-text>h1{
+    color: #364655;
+}
+
+.f-main-text>p {
+    color: #36465586;
+    width: 35rem;
+    letter-spacing: 0.5px;
+}
+
+/* main content */
+.f-main-content{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.f-top-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6rem;
+}
+
+.f-text>h2{
+    color: #364655;
+}
+
+.f-text>p {
+    width: 14rem;
+    color: #36465586;
+}
+
+.f-bottom-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6rem;
+}
+
+.f-know-more {
+    font-weight: 700;
+}
+
+.f-know-more>span {
+    border-bottom: 2px #36465586 solid;
+}
+
+/* -------------------- */
+
+/* section 4 from yahya */
+.a-second-section{
+    background-color: rgb(113, 71, 227);
+    height: max-content;
+    width: 100%;
+    padding: 8vh 0;
+    display: flex;
+    flex-direction: column;
+    gap: 7vh;
+    align-items: center;
+}
+.a-second-section>.a-header-title{
+    display: flex;
+    flex-direction: column;
+}
+.a-second-section>.a-header-title{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vh;
+    color: white;
+    text-align: center;
+}
+.a-second-section>.a-header-title>h3{
+    font-weight: bolder;
+}
+.a-second-section>.a-middle-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4vh;
+}
+.a-second-section>.a-middle-content>div{
+    display: flex;
+    gap: 10vw;
+    color: white;
+}
+.a-second-section>.a-middle-content>div>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vh;
+}
+.a-second-section>.a-middle-content>div>div>h1{
+    font-weight: bolder;
+    font-size: 5em;
+}
+.a-second-section>.a-middle-content>div>div>p{
+    font-weight: 500;
+}
+.a-second-section>.a-middle-content>p>a{
+    color: white;
+    text-decoration: none;
+    padding-bottom: 0.1vh;
+    border-bottom: white 1px solid;
+}
+
+/* ------------------ */
+
+/* section 5 from youssef */
+
+.f-section5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-block: 5rem;
+    gap: 4rem;
+}
+
+.f-features {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.f-top-title>img {
+    width: 1.8rem;
+    height: 1.8rem;
+}
+
+.f-top-title {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.f-top-title>h3 {
+    color: #364655;
+    font-size: 25px;
+}
+
+.f-first-feature>p {
+    width: 25rem;
+    padding-left: 3.45rem;
+    color: #36465586;
+    letter-spacing: 0.5px;
+}
+
+.f-second-feature>p {
+    width: 25rem;
+    padding-left: 3.45rem;
+    color: #36465586;
+    letter-spacing: 0.5px;
+}
+
+.f-third-feature>p {
+    width: 25rem;
+    padding-left: 3.45rem;
+    color: #36465586;
+    letter-spacing: 0.5px;
+}
+
+/* third  section by yahya*/
+.a-third-section{
+    background-color: rgb(246, 246, 253);
+    height: max-content;
+    width: 100%;
+    padding: 7vh 0;
+}
+.a-third-section{
+    display: flex;
+    flex-direction: column;
+    gap: 8vh;
+    align-items: center;
+}
+
+.a-third-section>.a-header-title{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    align-items: center;
+}
+.a-third-section>.a-header-title>p{
+    text-transform: uppercase;
+    opacity: 0.7;
+    font-size: 0.8em;
+}
+.a-third-section>.a-header-title>h1{
+    padding-inline: 20vw;
+    text-align: center;
+    font-weight: bold;
+}
+.a-third-section>.a-info-div{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    align-items: center;
+}
+.a-third-section>.a-info-div>form{
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+.a-third-section>.a-info-div>form>input , .a-third-section>.a-info-div>form>button{
+    width: 35vw;
+    padding: 1.5vh 0;
+    border: 0.5px solid grey;
+    border-radius: 10px;
+}
+.a-third-section>.a-info-div>form>input{
+    padding-left: 2vw;
+    outline: none;
+    transition: 0.5s;
+    font-size: 1.2em;
+}
+.a-third-section>.a-info-div>form>button{
+    background-color: rgb(113, 71, 227);
+    color: white;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.a-third-section>.a-info-div>form>button:hover , .a-third-section>.a-info-div>form>input:hover{
+    scale: 102%;
+}
+.a-third-section>.a-info-div>p>a{
+    text-decoration: none;
+    color: black;
+    opacity: 0.6;
+}
+.a-third-section>.footer{
+    display: flex;
+    gap: 25vw;
+    align-items: center;
+}
+.a-third-section>.footer>h3>a , .a-third-section>.footer>div>a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: rgb(113, 71, 227);
+}
+.a-third-section>.footer>div{
+    display: flex;
+    gap: 1vw;
+}
+.a-third-section>.footer>div>a{
+    font-size: 1em;
+}
+.footer>p {
+    color: #36465586;
+    padding-left: 7.5rem;
+}
+
+.a-third-section>.a-header-title>p{
+    color: #36465586;
+}
+/* section 1 responsive desktop edit */
+
+#menu,
+label {
+    display: none;
+}
+
+.close,
+.open {
+    display: none;
+}
+
+/* ----------------- */
+
+/* Responsive */
+
+@media (max-width: 480px) {
+
+    /* Section 1 from youssef - Responsive */
+    .f-section1 {
+        padding: 0 0;
+        width: 100%;
+    }
+
+    .f-navbar {
+        gap: 18.5rem;
+    }
+
+    .label,
+    .close {
+        display: block;
+    }
+
+    .f-navbar>nav>label {
+        display: block;
+    }
+
+    .open {
+        display: block;
+    }
+
+    .f-navbar>nav>a {
+        color: #ffffff;
+        font-size: 18px;
+    }
+
+    .f-navbar>nav>button {
+        width: 5.5rem;
+        height: 2.2rem;
+        font-size: 18px;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    #menu:checked~nav {
+        right: 0;
+    }
+
+    nav {
+        background-color: #353535;
+        position: fixed;
+        width: 85%;
+        height: 100vh;
+        right: -200%;
+        top: 0;
+        transition: 0.5s;
+        flex-direction: column;
+        align-items: start;
+        gap: 5vh !important;
+        padding: 5vw !important;
+    }
+
+    #menu:checked~.close {
+        display: block;
+    }
+
+    .close {
+        align-self: end;
+    }
+
+    .f-navbar>a {
+        font-weight: 600;
+        font-size: 17px;
+    }
+
+    .f-register-section>img{
+        width: 20rem;
+        height: 10rem;
+    }
+
+    .f-partners-section {
+        flex-direction: column;
+    }
+
+    /* section 2 from yahya - responsive  */
+    .a-first-section {
+        height: max-content;
+    }
+    
+    .a-header-title>p{
+        padding-inline: 10vw !important;
+        font-size: 0.8em !important;
+    }
+    .a-middle-content>.a-first-3-rewards{
+        flex-direction: column;
+        align-items: center;
+        gap: 5vh;
+    }
+    .a-middle-content>.a-first-3-rewards>div{
+        align-items: center;
+    }
+    .a-middle-content>.a-first-3-rewards>div>p{
+        padding-inline: 0vw !important;
+        width: 60vw;
+    }
+
+     /* section 3 from youssef - responsive */
+    
+     .f-top-content {
+        flex-direction: column;
+    }
+
+    .f-bottom-content {
+        flex-direction: column-reverse;
+    }
+
+    .f-main-text>p {
+        width: 22rem;
+    }
+
+    /* section 4 from yahya - responsive */
+
+    .a-second-section>.a-middle-content>div{
+        flex-direction: column;
+    }
+
+    /* section 5 from youssef - responsive */
+
+    .f-section5 {
+        flex-direction: column;
+    }
+
+    .f-features {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .f-top-title>img {
+        width: 1.8rem;
+        height: 1.8rem;
+    }
+    
+    .f-top-title {
+        gap: 1rem;
+    }
+    
+    .f-top-title>h3 {
+        color: #364655;
+        font-size: 25px;
+    }
+    
+    .f-first-feature {
+        padding-left: 1rem;
+    }
+
+    .f-first-feature>p {
+        width: 22rem;
+        padding-left: 3rem;
+    }
+    
+    
+    .f-second-feature {
+        padding-left: 1rem;
+    }
+
+    .f-second-feature>p {
+        width: 22rem;
+        padding-left: 3rem;
+    }
+
+    .f-third-feature {
+        padding-left: 1rem;
+    }
+
+    .f-third-feature>p {
+        width: 22rem;
+        padding-left: 3rem;
+    }
+
+    .f-section5>img {
+        width: 18rem;
+        height: 11rem;
+    }
+    
+    /* section 6 responsive by yahya */
+    .a-third-section>.a-header-title>h1{
+        padding-inline: 0;
+    }
+    .a-third-section>.a-info-div>form>input , .a-third-section>.a-info-div>form>button{
+        width: 100%;
+    }
+    .a-third-section>.footer{
+        flex-direction: column;
+        gap: 2vh;
+    }
+    .a-third-section>.footer>div{
+        gap: 3vw;
+    }
+
+    .footer>p {
+        padding-left: 0;
+    }
+
+}
